@@ -145,8 +145,6 @@ To replicate data from one node to another, databases use special logging mechan
 - **Backup & Reporting**  
   Replicas can be used for backups, analytics, or heavy read operations without impacting the primary database.
 
----
-
 ### Cons
 
 - **Eventual Consistency**  
