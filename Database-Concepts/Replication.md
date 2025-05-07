@@ -122,7 +122,7 @@ To replicate data from one node to another, databases use special logging mechan
 - MySQL decides automatically which one to use based on the query type.
 - Gives a balance between performance and accuracy.
 
-### 5. Trigger-Based Replication 
+### 5. Trigger-Based Replication
 
 - Custom **triggers** track changes on tables and store them in separate log or audit tables.
 - An external tool or script reads those logs and applies changes to replicas.
