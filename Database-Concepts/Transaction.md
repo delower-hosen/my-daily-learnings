@@ -64,6 +64,64 @@ UPDATE accounts SET balance = balance + 100 WHERE id = 2;
 COMMIT;
 ```
 
+## Consistency
+
+**Consistency** in the context of ACID guarantees that a transaction brings the database from one **valid state** to another. It ensures that all **integrity constraints**, **rules**, and **invariants** are upheld at the start and end of each transaction.
+
+If any part of a transaction would result in invalid data (e.g., violating a foreign key, unique constraint, or business rule), the entire transaction is **rolled back**.
+
+### What Does Consistency Mean?
+
+- The application may rely on the database's atomicity and isololation to achieve consistency, but it's not up to the database alone. Thus, the letter **C** doesn't really belong in **ACID**.
+- The database must always remain valid before and after a transaction.
+- All constraints (e.g., data types, unique, foreign keys) and business logic must hold true.
+- It does not guarantee anything about concurrent transaction interference — that’s Isolation's job.
+
+**Example**
+Assume the following constraints:
+```sql
+-- Account balance must never be negative
+CREATE TABLE accounts (
+  id INT PRIMARY KEY,
+  balance NUMERIC NOT NULL CHECK (balance >= 0)
+);
+
+-- Transfer amount must be positive
+CREATE TABLE transfers (
+  id SERIAL PRIMARY KEY,
+  from_account INT,
+  to_account INT,
+  amount NUMERIC CHECK (amount > 0)
+);
+```
+```sql
+-- Valid transaction (Consistent)
+BEGIN;
+
+-- Subtract from sender
+UPDATE accounts SET balance = balance - 100 WHERE id = 1;
+
+-- Add to recipient
+UPDATE accounts SET balance = balance + 100 WHERE id = 2;
+
+-- Record the transfer
+INSERT INTO transfers (from_account, to_account, amount)
+VALUES (1, 2, 100);
+
+COMMIT;
+```
+
+```sql
+BEGIN;
+
+-- Attempt to overdraw account 1 (current balance is 500)
+UPDATE accounts SET balance = balance - 1000 WHERE id = 1;
+
+COMMIT;  -- ❌ Fails due to CHECK (balance >= 0)
+
+```
+> Since the balance would go negative, the database automatically rolls back to maintain consistency.
+
 ## Isolation
 
 **Isolation** is one of the ACID properties of transactions. It ensures that **concurrent transactions** do **not interfere** with each other in a way that corrupts data or causes inconsistent reads. The level of isolation controls **what effects of one transaction are visible to another** during execution.
