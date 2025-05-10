@@ -1,4 +1,3 @@
-
 # Transactions in Databases
 
 A **transaction** is a way for an application to group several reads and writes into a single logical unit. Conceptually, all the operations in a transaction are executed as **one atomic operation**: either the entire transaction **succeeds** (committed) or it **fails** (aborted or rolled back). If it fails, the application can safely **retry** the transaction without side effects.
@@ -64,3 +63,111 @@ UPDATE accounts SET balance = balance + 100 WHERE id = 2;
 -- If any update fails, the transaction is rolled back
 COMMIT;
 ```
+
+## Isolation
+
+**Isolation** is one of the ACID properties of transactions. It ensures that **concurrent transactions** do **not interfere** with each other in a way that corrupts data or causes inconsistent reads. The level of isolation controls **what effects of one transaction are visible to another** during execution.
+
+### Common Read & Write Phenomena
+
+#### 1. Dirty Read
+
+> Reading **uncommitted** changes made by another transaction.
+
+```sql
+-- TX1
+BEGIN;
+UPDATE accounts SET balance = 500 WHERE id = 1; -- not committed
+
+-- TX2
+SELECT balance FROM accounts WHERE id = 1; -- sees 500
+
+-- TX1 rolls back
+ROLLBACK;
+```
+📌 TX2 reads a value that never existed in committed state.
+
+#### 2. Non-Repeatable Read
+
+> Reading the **same row twice** in one transaction and getting **different values** due to a concurrent update.
+
+```sql
+-- TX1
+BEGIN;
+SELECT balance FROM accounts WHERE id = 1; -- gets 1000
+
+-- TX2
+BEGIN;
+UPDATE accounts SET balance = 800 WHERE id = 1;
+COMMIT;
+
+-- TX1 (again)
+SELECT balance FROM accounts WHERE id = 1; -- gets 800
+COMMIT;
+```
+📌 TX1 read different values for the same row during its lifetime.
+
+#### 3. Phantom Read
+
+> Re-running a **range query** yields a **different set of rows** due to concurrent inserts/deletes.
+
+```sql
+-- TX1
+BEGIN;
+SELECT * FROM orders WHERE amount > 100; -- returns 5 rows
+
+-- TX2
+BEGIN;
+INSERT INTO orders (amount) VALUES (150);
+COMMIT;
+
+-- TX1
+SELECT * FROM orders WHERE amount > 100; -- now returns 6 rows
+COMMIT;
+```
+📌 New rows appear ("phantoms") in the result set.
+
+
+#### 4. Lost Update
+
+> Two transactions read the same row, both update it, and one update gets lost.
+
+```sql
+-- TX1
+BEGIN;
+SELECT balance FROM accounts WHERE id = 1; -- reads 1000
+
+-- TX2
+BEGIN;
+SELECT balance FROM accounts WHERE id = 1; -- also reads 1000
+
+-- TX1
+UPDATE accounts SET balance = 900 WHERE id = 1; -- subtracts 100
+COMMIT;
+
+-- TX2
+UPDATE accounts SET balance = 1100 WHERE id = 1; -- adds 100
+COMMIT;
+```
+📌 Final balance is 1100, TX1's change was lost.
+
+
+## Isolation Levels
+
+An isolation level defines how visible the changes made by one transaction are to other concurrent transactions. It helps determine how multiple transactions interact when accessing or modifying the same data.
+
+### Types of Isolation Levels
+
+1. **Read Uncommitted** – Can see uncommitted data from others (dirty reads).
+2. **Read Committed** – Only sees committed changes from others.
+3. **Repeatable Read** – Ensures rows read remain consistent for the duration.
+4. **Serializable** – Fully isolated, simulates one transaction at a time.
+
+## Isolation Levels vs Read Phenomena
+
+| Isolation Level     | Dirty Reads | Non-Repeatable Reads | Phantom Reads | Lost Updates |
+|----------------------|-------------|------------------------|----------------|----------------|
+| Read Uncommitted     | ✅ Yes      | ✅ Yes                | ✅ Yes        | ✅ Yes         |
+| Read Committed       | ❌ No       | ✅ Yes                | ✅ Yes        | ✅ Yes         |
+| Repeatable Read      | ❌ No       | ❌ No                 | ✅ Yes        | ✅ Yes         |
+| Serializable         | ❌ No       | ❌ No                 | ❌ No         | ❌ No          |
