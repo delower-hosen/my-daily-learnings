@@ -229,3 +229,37 @@ An isolation level defines how visible the changes made by one transaction are t
 | Read Committed       | ❌ No       | ✅ Yes                | ✅ Yes        | ✅ Yes         |
 | Repeatable Read      | ❌ No       | ❌ No                 | ✅ Yes        | ✅ Yes         |
 | Serializable         | ❌ No       | ❌ No                 | ❌ No         | ❌ No          |
+
+
+## Durability
+
+The purpose of a database system is to provide a **safe and reliable place to store data**. **Durability** is the **D** in **ACID**, ensuring that **once a transaction is successfully committed, its effects are permanent**, even if the system crashes or encounters hardware failures.
+
+Once a transaction is reported as **committed**, the database guarantees that the data will **not be lost**, even if:
+
+- The database process crashes.
+- The server machine reboots.
+- There is a power outage.
+
+### How is Durability Achieved?
+
+#### In a Single-Node Database
+
+Durability is typically ensured by persisting data to **non-volatile storage** (e.g., **SSD, HDD, NVRAM**).
+
+- **Write-Ahead Log (WAL)**:  
+  Most databases use a **WAL** where the changes are first written to a log file before modifying the actual data files. This ensures that, even if the process crashes mid-way, the log can be replayed to recover.
+  
+- **Synchronous Disk Flush**:  
+  The commit is only acknowledged after data and logs have been flushed to disk using mechanisms like `fsync()`.
+
+- **Snapshots**:  
+  Some systems periodically take **snapshots** of the database to further protect against data corruption.
+
+#### In a Replicated Database (Distributed Systems)
+
+Durability may also depend on data replication across multiple nodes.
+
+- The transaction may be considered durable only after it has been acknowledged by a quorum or all replicas, depending on the configuration (e.g., writeConcern in MongoDB, quorum in Cassandra).
+
+- Some systems allow asynchronous replication, where data is durable only on the leader node initially, with risk of loss if the leader crashes before replicas catch up.
