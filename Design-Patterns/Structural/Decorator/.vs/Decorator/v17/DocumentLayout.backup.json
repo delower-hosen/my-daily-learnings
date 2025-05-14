@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\Daily Learning\\Design-Patterns\\Structural\\Decorator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA5D801-9BA6-4052-996A-DE34C3AF2CD4}|Decorator\\Decorator.csproj|h:\\daily learning\\design-patterns\\structural\\decorator\\decorator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA5D801-9BA6-4052-996A-DE34C3AF2CD4}|Decorator\\Decorator.csproj|solutionrelative:decorator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA5D801-9BA6-4052-996A-DE34C3AF2CD4}|Decorator\\Decorator.csproj|h:\\daily learning\\design-patterns\\structural\\decorator\\decorator\\plaintext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA5D801-9BA6-4052-996A-DE34C3AF2CD4}|Decorator\\Decorator.csproj|solutionrelative:decorator\\plaintext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA5D801-9BA6-4052-996A-DE34C3AF2CD4}|Decorator\\Decorator.csproj|h:\\daily learning\\design-patterns\\structural\\decorator\\decorator\\textdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA5D801-9BA6-4052-996A-DE34C3AF2CD4}|Decorator\\Decorator.csproj|solutionrelative:decorator\\textdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA5D801-9BA6-4052-996A-DE34C3AF2CD4}|Decorator\\Decorator.csproj|h:\\daily learning\\design-patterns\\structural\\decorator\\decorator\\boldtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA5D801-9BA6-4052-996A-DE34C3AF2CD4}|Decorator\\Decorator.csproj|solutionrelative:decorator\\boldtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA5D801-9BA6-4052-996A-DE34C3AF2CD4}|Decorator\\Decorator.csproj|h:\\daily learning\\design-patterns\\structural\\decorator\\decorator\\underlinetext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA5D801-9BA6-4052-996A-DE34C3AF2CD4}|Decorator\\Decorator.csproj|solutionrelative:decorator\\underlinetext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA5D801-9BA6-4052-996A-DE34C3AF2CD4}|Decorator\\Decorator.csproj|h:\\daily learning\\design-patterns\\structural\\decorator\\decorator\\italictext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA5D801-9BA6-4052-996A-DE34C3AF2CD4}|Decorator\\Decorator.csproj|solutionrelative:decorator\\italictext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UnderlineText.cs",
+              "DocumentMoniker": "H:\\Daily Learning\\Design-Patterns\\Structural\\Decorator\\Decorator\\UnderlineText.cs",
+              "RelativeDocumentMoniker": "Decorator\\UnderlineText.cs",
+              "ToolTip": "H:\\Daily Learning\\Design-Patterns\\Structural\\Decorator\\Decorator\\UnderlineText.cs",
+              "RelativeToolTip": "Decorator\\UnderlineText.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T15:52:33.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ItalicText.cs",
+              "DocumentMoniker": "H:\\Daily Learning\\Design-Patterns\\Structural\\Decorator\\Decorator\\ItalicText.cs",
+              "RelativeDocumentMoniker": "Decorator\\ItalicText.cs",
+              "ToolTip": "H:\\Daily Learning\\Design-Patterns\\Structural\\Decorator\\Decorator\\ItalicText.cs",
+              "RelativeToolTip": "Decorator\\ItalicText.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T15:51:48.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BoldText.cs",
+              "DocumentMoniker": "H:\\Daily Learning\\Design-Patterns\\Structural\\Decorator\\Decorator\\BoldText.cs",
+              "RelativeDocumentMoniker": "Decorator\\BoldText.cs",
+              "ToolTip": "H:\\Daily Learning\\Design-Patterns\\Structural\\Decorator\\Decorator\\BoldText.cs",
+              "RelativeToolTip": "Decorator\\BoldText.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T15:50:32.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TextDecorator.cs",
+              "DocumentMoniker": "H:\\Daily Learning\\Design-Patterns\\Structural\\Decorator\\Decorator\\TextDecorator.cs",
+              "RelativeDocumentMoniker": "Decorator\\TextDecorator.cs",
+              "ToolTip": "H:\\Daily Learning\\Design-Patterns\\Structural\\Decorator\\Decorator\\TextDecorator.cs",
+              "RelativeToolTip": "Decorator\\TextDecorator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T15:49:16.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlainText.cs",
+              "DocumentMoniker": "H:\\Daily Learning\\Design-Patterns\\Structural\\Decorator\\Decorator\\PlainText.cs",
+              "RelativeDocumentMoniker": "Decorator\\PlainText.cs",
+              "ToolTip": "H:\\Daily Learning\\Design-Patterns\\Structural\\Decorator\\Decorator\\PlainText.cs",
+              "RelativeToolTip": "Decorator\\PlainText.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T15:48:04.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\Daily Learning\\Design-Patterns\\Structural\\Decorator\\Decorator\\Program.cs",
+              "RelativeDocumentMoniker": "Decorator\\Program.cs",
+              "ToolTip": "H:\\Daily Learning\\Design-Patterns\\Structural\\Decorator\\Decorator\\Program.cs",
+              "RelativeToolTip": "Decorator\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T15:46:58.455Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

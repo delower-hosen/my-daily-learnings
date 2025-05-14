@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\Daily Learning\\Design-Patterns\\Creational\\Abstract_Factory\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A4E2BC64-A762-4CE4-9BD6-8755971B6423}|Abstract_Factory\\Abstract_Factory.csproj|h:\\daily learning\\design-patterns\\creational\\abstract_factory\\abstract_factory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4E2BC64-A762-4CE4-9BD6-8755971B6423}|Abstract_Factory\\Abstract_Factory.csproj|solutionrelative:abstract_factory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4E2BC64-A762-4CE4-9BD6-8755971B6423}|Abstract_Factory\\Abstract_Factory.csproj|h:\\daily learning\\design-patterns\\creational\\abstract_factory\\abstract_factory\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4E2BC64-A762-4CE4-9BD6-8755971B6423}|Abstract_Factory\\Abstract_Factory.csproj|solutionrelative:abstract_factory\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4E2BC64-A762-4CE4-9BD6-8755971B6423}|Abstract_Factory\\Abstract_Factory.csproj|h:\\daily learning\\design-patterns\\creational\\abstract_factory\\abstract_factory\\macuifactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4E2BC64-A762-4CE4-9BD6-8755971B6423}|Abstract_Factory\\Abstract_Factory.csproj|solutionrelative:abstract_factory\\macuifactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4E2BC64-A762-4CE4-9BD6-8755971B6423}|Abstract_Factory\\Abstract_Factory.csproj|h:\\daily learning\\design-patterns\\creational\\abstract_factory\\abstract_factory\\windowsuifactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4E2BC64-A762-4CE4-9BD6-8755971B6423}|Abstract_Factory\\Abstract_Factory.csproj|solutionrelative:abstract_factory\\windowsuifactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4E2BC64-A762-4CE4-9BD6-8755971B6423}|Abstract_Factory\\Abstract_Factory.csproj|h:\\daily learning\\design-patterns\\creational\\abstract_factory\\abstract_factory\\iuifactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4E2BC64-A762-4CE4-9BD6-8755971B6423}|Abstract_Factory\\Abstract_Factory.csproj|solutionrelative:abstract_factory\\iuifactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Client.cs",
+              "DocumentMoniker": "H:\\Daily Learning\\Design-Patterns\\Creational\\Abstract_Factory\\Abstract_Factory\\Client.cs",
+              "RelativeDocumentMoniker": "Abstract_Factory\\Client.cs",
+              "ToolTip": "H:\\Daily Learning\\Design-Patterns\\Creational\\Abstract_Factory\\Abstract_Factory\\Client.cs",
+              "RelativeToolTip": "Abstract_Factory\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T10:28:29.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MacUIFactory.cs",
+              "DocumentMoniker": "H:\\Daily Learning\\Design-Patterns\\Creational\\Abstract_Factory\\Abstract_Factory\\MacUIFactory.cs",
+              "RelativeDocumentMoniker": "Abstract_Factory\\MacUIFactory.cs",
+              "ToolTip": "H:\\Daily Learning\\Design-Patterns\\Creational\\Abstract_Factory\\Abstract_Factory\\MacUIFactory.cs",
+              "RelativeToolTip": "Abstract_Factory\\MacUIFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T10:27:12.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WindowsUIFactory.cs",
+              "DocumentMoniker": "H:\\Daily Learning\\Design-Patterns\\Creational\\Abstract_Factory\\Abstract_Factory\\WindowsUIFactory.cs",
+              "RelativeDocumentMoniker": "Abstract_Factory\\WindowsUIFactory.cs",
+              "ToolTip": "H:\\Daily Learning\\Design-Patterns\\Creational\\Abstract_Factory\\Abstract_Factory\\WindowsUIFactory.cs",
+              "RelativeToolTip": "Abstract_Factory\\WindowsUIFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T10:25:38.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUIFactory.cs",
+              "DocumentMoniker": "H:\\Daily Learning\\Design-Patterns\\Creational\\Abstract_Factory\\Abstract_Factory\\IUIFactory.cs",
+              "RelativeDocumentMoniker": "Abstract_Factory\\IUIFactory.cs",
+              "ToolTip": "H:\\Daily Learning\\Design-Patterns\\Creational\\Abstract_Factory\\Abstract_Factory\\IUIFactory.cs",
+              "RelativeToolTip": "Abstract_Factory\\IUIFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T10:23:41.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\Daily Learning\\Design-Patterns\\Creational\\Abstract_Factory\\Abstract_Factory\\Program.cs",
+              "RelativeDocumentMoniker": "Abstract_Factory\\Program.cs",
+              "ToolTip": "H:\\Daily Learning\\Design-Patterns\\Creational\\Abstract_Factory\\Abstract_Factory\\Program.cs",
+              "RelativeToolTip": "Abstract_Factory\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T10:17:45.737Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

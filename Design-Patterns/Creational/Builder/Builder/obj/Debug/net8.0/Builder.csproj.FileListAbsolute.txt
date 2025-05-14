@@ -1,0 +1,15 @@
+H:\Daily Learning\Design-Patterns\Creational\Builder\Builder\bin\Debug\net8.0\Builder.exe
+H:\Daily Learning\Design-Patterns\Creational\Builder\Builder\bin\Debug\net8.0\Builder.deps.json
+H:\Daily Learning\Design-Patterns\Creational\Builder\Builder\bin\Debug\net8.0\Builder.runtimeconfig.json
+H:\Daily Learning\Design-Patterns\Creational\Builder\Builder\bin\Debug\net8.0\Builder.dll
+H:\Daily Learning\Design-Patterns\Creational\Builder\Builder\bin\Debug\net8.0\Builder.pdb
+H:\Daily Learning\Design-Patterns\Creational\Builder\Builder\obj\Debug\net8.0\Builder.GeneratedMSBuildEditorConfig.editorconfig
+H:\Daily Learning\Design-Patterns\Creational\Builder\Builder\obj\Debug\net8.0\Builder.AssemblyInfoInputs.cache
+H:\Daily Learning\Design-Patterns\Creational\Builder\Builder\obj\Debug\net8.0\Builder.AssemblyInfo.cs
+H:\Daily Learning\Design-Patterns\Creational\Builder\Builder\obj\Debug\net8.0\Builder.csproj.CoreCompileInputs.cache
+H:\Daily Learning\Design-Patterns\Creational\Builder\Builder\obj\Debug\net8.0\Builder.sourcelink.json
+H:\Daily Learning\Design-Patterns\Creational\Builder\Builder\obj\Debug\net8.0\Builder.dll
+H:\Daily Learning\Design-Patterns\Creational\Builder\Builder\obj\Debug\net8.0\refint\Builder.dll
+H:\Daily Learning\Design-Patterns\Creational\Builder\Builder\obj\Debug\net8.0\Builder.pdb
+H:\Daily Learning\Design-Patterns\Creational\Builder\Builder\obj\Debug\net8.0\Builder.genruntimeconfig.cache
+H:\Daily Learning\Design-Patterns\Creational\Builder\Builder\obj\Debug\net8.0\ref\Builder.dll

@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\Daily Learning\\Design-Patterns\\Behavioral\\Observer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7765F9DB-45C3-4ED7-9EB8-7E122270AD1E}|Observer\\Observer.csproj|h:\\daily learning\\design-patterns\\behavioral\\observer\\observer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7765F9DB-45C3-4ED7-9EB8-7E122270AD1E}|Observer\\Observer.csproj|solutionrelative:observer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7765F9DB-45C3-4ED7-9EB8-7E122270AD1E}|Observer\\Observer.csproj|h:\\daily learning\\design-patterns\\behavioral\\observer\\observer\\iobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7765F9DB-45C3-4ED7-9EB8-7E122270AD1E}|Observer\\Observer.csproj|solutionrelative:observer\\iobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7765F9DB-45C3-4ED7-9EB8-7E122270AD1E}|Observer\\Observer.csproj|h:\\daily learning\\design-patterns\\behavioral\\observer\\observer\\isubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7765F9DB-45C3-4ED7-9EB8-7E122270AD1E}|Observer\\Observer.csproj|solutionrelative:observer\\isubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7765F9DB-45C3-4ED7-9EB8-7E122270AD1E}|Observer\\Observer.csproj|h:\\daily learning\\design-patterns\\behavioral\\observer\\observer\\subject\\weatherdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7765F9DB-45C3-4ED7-9EB8-7E122270AD1E}|Observer\\Observer.csproj|solutionrelative:observer\\subject\\weatherdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7765F9DB-45C3-4ED7-9EB8-7E122270AD1E}|Observer\\Observer.csproj|h:\\daily learning\\design-patterns\\behavioral\\observer\\observer\\observers\\currentconditionsdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7765F9DB-45C3-4ED7-9EB8-7E122270AD1E}|Observer\\Observer.csproj|solutionrelative:observer\\observers\\currentconditionsdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7765F9DB-45C3-4ED7-9EB8-7E122270AD1E}|Observer\\Observer.csproj|h:\\daily learning\\design-patterns\\behavioral\\observer\\observer\\observers\\statisticsdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7765F9DB-45C3-4ED7-9EB8-7E122270AD1E}|Observer\\Observer.csproj|solutionrelative:observer\\observers\\statisticsdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7765F9DB-45C3-4ED7-9EB8-7E122270AD1E}|Observer\\Observer.csproj|h:\\daily learning\\design-patterns\\behavioral\\observer\\observer\\observers\\forecastdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7765F9DB-45C3-4ED7-9EB8-7E122270AD1E}|Observer\\Observer.csproj|solutionrelative:observer\\observers\\forecastdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ForecastDisplay.cs",
+              "DocumentMoniker": "H:\\Daily Learning\\Design-Patterns\\Behavioral\\Observer\\Observer\\Observers\\ForecastDisplay.cs",
+              "RelativeDocumentMoniker": "Observer\\Observers\\ForecastDisplay.cs",
+              "ToolTip": "H:\\Daily Learning\\Design-Patterns\\Behavioral\\Observer\\Observer\\Observers\\ForecastDisplay.cs",
+              "RelativeToolTip": "Observer\\Observers\\ForecastDisplay.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T18:30:43.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StatisticsDisplay.cs",
+              "DocumentMoniker": "H:\\Daily Learning\\Design-Patterns\\Behavioral\\Observer\\Observer\\Observers\\StatisticsDisplay.cs",
+              "RelativeDocumentMoniker": "Observer\\Observers\\StatisticsDisplay.cs",
+              "ToolTip": "H:\\Daily Learning\\Design-Patterns\\Behavioral\\Observer\\Observer\\Observers\\StatisticsDisplay.cs",
+              "RelativeToolTip": "Observer\\Observers\\StatisticsDisplay.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T18:29:10.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CurrentConditionsDisplay.cs",
+              "DocumentMoniker": "H:\\Daily Learning\\Design-Patterns\\Behavioral\\Observer\\Observer\\Observers\\CurrentConditionsDisplay.cs",
+              "RelativeDocumentMoniker": "Observer\\Observers\\CurrentConditionsDisplay.cs",
+              "ToolTip": "H:\\Daily Learning\\Design-Patterns\\Behavioral\\Observer\\Observer\\Observers\\CurrentConditionsDisplay.cs",
+              "RelativeToolTip": "Observer\\Observers\\CurrentConditionsDisplay.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T18:28:19.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherData.cs",
+              "DocumentMoniker": "H:\\Daily Learning\\Design-Patterns\\Behavioral\\Observer\\Observer\\Subject\\WeatherData.cs",
+              "RelativeDocumentMoniker": "Observer\\Subject\\WeatherData.cs",
+              "ToolTip": "H:\\Daily Learning\\Design-Patterns\\Behavioral\\Observer\\Observer\\Subject\\WeatherData.cs",
+              "RelativeToolTip": "Observer\\Subject\\WeatherData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T18:24:31.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ISubject.cs",
+              "DocumentMoniker": "H:\\Daily Learning\\Design-Patterns\\Behavioral\\Observer\\Observer\\ISubject.cs",
+              "RelativeDocumentMoniker": "Observer\\ISubject.cs",
+              "ToolTip": "H:\\Daily Learning\\Design-Patterns\\Behavioral\\Observer\\Observer\\ISubject.cs",
+              "RelativeToolTip": "Observer\\ISubject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T18:22:30.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IObserver.cs",
+              "DocumentMoniker": "H:\\Daily Learning\\Design-Patterns\\Behavioral\\Observer\\Observer\\IObserver.cs",
+              "RelativeDocumentMoniker": "Observer\\IObserver.cs",
+              "ToolTip": "H:\\Daily Learning\\Design-Patterns\\Behavioral\\Observer\\Observer\\IObserver.cs",
+              "RelativeToolTip": "Observer\\IObserver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T18:21:18.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\Daily Learning\\Design-Patterns\\Behavioral\\Observer\\Observer\\Program.cs",
+              "RelativeDocumentMoniker": "Observer\\Program.cs",
+              "ToolTip": "H:\\Daily Learning\\Design-Patterns\\Behavioral\\Observer\\Observer\\Program.cs",
+              "RelativeToolTip": "Observer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T18:20:50.472Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

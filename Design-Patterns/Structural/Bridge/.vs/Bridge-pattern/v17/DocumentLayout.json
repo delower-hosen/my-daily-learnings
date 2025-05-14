@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\Daily Learning\\Design-Patterns\\Structural\\Bridge\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78026594-132D-4CEB-AB1F-7941AF54D8D3}|Bridge-pattern\\Bridge_Pattern.csproj|h:\\daily learning\\design-patterns\\structural\\bridge\\bridge-pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78026594-132D-4CEB-AB1F-7941AF54D8D3}|Bridge-pattern\\Bridge_Pattern.csproj|solutionrelative:bridge-pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78026594-132D-4CEB-AB1F-7941AF54D8D3}|Bridge-pattern\\Bridge_Pattern.csproj|h:\\daily learning\\design-patterns\\structural\\bridge\\bridge-pattern\\notifications\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78026594-132D-4CEB-AB1F-7941AF54D8D3}|Bridge-pattern\\Bridge_Pattern.csproj|solutionrelative:bridge-pattern\\notifications\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78026594-132D-4CEB-AB1F-7941AF54D8D3}|Bridge-pattern\\Bridge_Pattern.csproj|h:\\daily learning\\design-patterns\\structural\\bridge\\bridge-pattern\\notifications\\alertnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78026594-132D-4CEB-AB1F-7941AF54D8D3}|Bridge-pattern\\Bridge_Pattern.csproj|solutionrelative:bridge-pattern\\notifications\\alertnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AlertNotification.cs",
+              "DocumentMoniker": "H:\\Daily Learning\\Design-Patterns\\Structural\\Bridge\\Bridge-pattern\\Notifications\\AlertNotification.cs",
+              "RelativeDocumentMoniker": "Bridge-pattern\\Notifications\\AlertNotification.cs",
+              "ToolTip": "H:\\Daily Learning\\Design-Patterns\\Structural\\Bridge\\Bridge-pattern\\Notifications\\AlertNotification.cs",
+              "RelativeToolTip": "Bridge-pattern\\Notifications\\AlertNotification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T17:35:27.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "H:\\Daily Learning\\Design-Patterns\\Structural\\Bridge\\Bridge-pattern\\Notifications\\Notification.cs",
+              "RelativeDocumentMoniker": "Bridge-pattern\\Notifications\\Notification.cs",
+              "ToolTip": "H:\\Daily Learning\\Design-Patterns\\Structural\\Bridge\\Bridge-pattern\\Notifications\\Notification.cs",
+              "RelativeToolTip": "Bridge-pattern\\Notifications\\Notification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T17:30:47.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\Daily Learning\\Design-Patterns\\Structural\\Bridge\\Bridge-pattern\\Program.cs",
+              "RelativeDocumentMoniker": "Bridge-pattern\\Program.cs",
+              "ToolTip": "H:\\Daily Learning\\Design-Patterns\\Structural\\Bridge\\Bridge-pattern\\Program.cs",
+              "RelativeToolTip": "Bridge-pattern\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T17:29:43.678Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

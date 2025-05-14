@@ -1,0 +1,15 @@
+H:\Daily Learning\Design-Patterns\Behavioral\Observer\Observer\bin\Debug\net8.0\Observer.exe
+H:\Daily Learning\Design-Patterns\Behavioral\Observer\Observer\bin\Debug\net8.0\Observer.deps.json
+H:\Daily Learning\Design-Patterns\Behavioral\Observer\Observer\bin\Debug\net8.0\Observer.runtimeconfig.json
+H:\Daily Learning\Design-Patterns\Behavioral\Observer\Observer\bin\Debug\net8.0\Observer.dll
+H:\Daily Learning\Design-Patterns\Behavioral\Observer\Observer\bin\Debug\net8.0\Observer.pdb
+H:\Daily Learning\Design-Patterns\Behavioral\Observer\Observer\obj\Debug\net8.0\Observer.GeneratedMSBuildEditorConfig.editorconfig
+H:\Daily Learning\Design-Patterns\Behavioral\Observer\Observer\obj\Debug\net8.0\Observer.AssemblyInfoInputs.cache
+H:\Daily Learning\Design-Patterns\Behavioral\Observer\Observer\obj\Debug\net8.0\Observer.AssemblyInfo.cs
+H:\Daily Learning\Design-Patterns\Behavioral\Observer\Observer\obj\Debug\net8.0\Observer.csproj.CoreCompileInputs.cache
+H:\Daily Learning\Design-Patterns\Behavioral\Observer\Observer\obj\Debug\net8.0\Observer.sourcelink.json
+H:\Daily Learning\Design-Patterns\Behavioral\Observer\Observer\obj\Debug\net8.0\Observer.dll
+H:\Daily Learning\Design-Patterns\Behavioral\Observer\Observer\obj\Debug\net8.0\refint\Observer.dll
+H:\Daily Learning\Design-Patterns\Behavioral\Observer\Observer\obj\Debug\net8.0\Observer.pdb
+H:\Daily Learning\Design-Patterns\Behavioral\Observer\Observer\obj\Debug\net8.0\Observer.genruntimeconfig.cache
+H:\Daily Learning\Design-Patterns\Behavioral\Observer\Observer\obj\Debug\net8.0\ref\Observer.dll

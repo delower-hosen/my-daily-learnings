@@ -1,0 +1,15 @@
+H:\Daily Learning\Design-Patterns\Behavioral\Command\Command\bin\Debug\net8.0\Command.exe
+H:\Daily Learning\Design-Patterns\Behavioral\Command\Command\bin\Debug\net8.0\Command.deps.json
+H:\Daily Learning\Design-Patterns\Behavioral\Command\Command\bin\Debug\net8.0\Command.runtimeconfig.json
+H:\Daily Learning\Design-Patterns\Behavioral\Command\Command\bin\Debug\net8.0\Command.dll
+H:\Daily Learning\Design-Patterns\Behavioral\Command\Command\bin\Debug\net8.0\Command.pdb
+H:\Daily Learning\Design-Patterns\Behavioral\Command\Command\obj\Debug\net8.0\Command.GeneratedMSBuildEditorConfig.editorconfig
+H:\Daily Learning\Design-Patterns\Behavioral\Command\Command\obj\Debug\net8.0\Command.AssemblyInfoInputs.cache
+H:\Daily Learning\Design-Patterns\Behavioral\Command\Command\obj\Debug\net8.0\Command.AssemblyInfo.cs
+H:\Daily Learning\Design-Patterns\Behavioral\Command\Command\obj\Debug\net8.0\Command.csproj.CoreCompileInputs.cache
+H:\Daily Learning\Design-Patterns\Behavioral\Command\Command\obj\Debug\net8.0\Command.sourcelink.json
+H:\Daily Learning\Design-Patterns\Behavioral\Command\Command\obj\Debug\net8.0\Command.dll
+H:\Daily Learning\Design-Patterns\Behavioral\Command\Command\obj\Debug\net8.0\refint\Command.dll
+H:\Daily Learning\Design-Patterns\Behavioral\Command\Command\obj\Debug\net8.0\Command.pdb
+H:\Daily Learning\Design-Patterns\Behavioral\Command\Command\obj\Debug\net8.0\Command.genruntimeconfig.cache
+H:\Daily Learning\Design-Patterns\Behavioral\Command\Command\obj\Debug\net8.0\ref\Command.dll

@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\Daily Learning\\Design-Patterns\\Behavioral\\Chain_Of_Responsibility_Pattern\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1BC87F3A-4B33-484E-9256-DE6B4F2F4218}|Chain_Of_Responsibility_Pattern\\Chain_Of_Responsibility_Pattern.csproj|h:\\daily learning\\design-patterns\\behavioral\\chain_of_responsibility_pattern\\chain_of_responsibility_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BC87F3A-4B33-484E-9256-DE6B4F2F4218}|Chain_Of_Responsibility_Pattern\\Chain_Of_Responsibility_Pattern.csproj|solutionrelative:chain_of_responsibility_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BC87F3A-4B33-484E-9256-DE6B4F2F4218}|Chain_Of_Responsibility_Pattern\\Chain_Of_Responsibility_Pattern.csproj|h:\\daily learning\\design-patterns\\behavioral\\chain_of_responsibility_pattern\\chain_of_responsibility_pattern\\tickethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BC87F3A-4B33-484E-9256-DE6B4F2F4218}|Chain_Of_Responsibility_Pattern\\Chain_Of_Responsibility_Pattern.csproj|solutionrelative:chain_of_responsibility_pattern\\tickethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TicketHandler.cs",
+              "DocumentMoniker": "H:\\Daily Learning\\Design-Patterns\\Behavioral\\Chain_Of_Responsibility_Pattern\\Chain_Of_Responsibility_Pattern\\TicketHandler.cs",
+              "RelativeDocumentMoniker": "Chain_Of_Responsibility_Pattern\\TicketHandler.cs",
+              "ToolTip": "H:\\Daily Learning\\Design-Patterns\\Behavioral\\Chain_Of_Responsibility_Pattern\\Chain_Of_Responsibility_Pattern\\TicketHandler.cs",
+              "RelativeToolTip": "Chain_Of_Responsibility_Pattern\\TicketHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T20:29:28.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\Daily Learning\\Design-Patterns\\Behavioral\\Chain_Of_Responsibility_Pattern\\Chain_Of_Responsibility_Pattern\\Program.cs",
+              "RelativeDocumentMoniker": "Chain_Of_Responsibility_Pattern\\Program.cs",
+              "ToolTip": "H:\\Daily Learning\\Design-Patterns\\Behavioral\\Chain_Of_Responsibility_Pattern\\Chain_Of_Responsibility_Pattern\\Program.cs",
+              "RelativeToolTip": "Chain_Of_Responsibility_Pattern\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T18:46:32.879Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

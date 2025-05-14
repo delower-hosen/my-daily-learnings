@@ -1,0 +1,14 @@
+H:\Daily Learning\Design-Patterns\Bridge-pattern\Bridge-pattern\bin\Debug\net8.0\Bridge-pattern.exe
+H:\Daily Learning\Design-Patterns\Bridge-pattern\Bridge-pattern\bin\Debug\net8.0\Bridge-pattern.deps.json
+H:\Daily Learning\Design-Patterns\Bridge-pattern\Bridge-pattern\bin\Debug\net8.0\Bridge-pattern.runtimeconfig.json
+H:\Daily Learning\Design-Patterns\Bridge-pattern\Bridge-pattern\bin\Debug\net8.0\Bridge-pattern.dll
+H:\Daily Learning\Design-Patterns\Bridge-pattern\Bridge-pattern\bin\Debug\net8.0\Bridge-pattern.pdb
+H:\Daily Learning\Design-Patterns\Bridge-pattern\Bridge-pattern\obj\Debug\net8.0\Bridge-pattern.GeneratedMSBuildEditorConfig.editorconfig
+H:\Daily Learning\Design-Patterns\Bridge-pattern\Bridge-pattern\obj\Debug\net8.0\Bridge-pattern.AssemblyInfoInputs.cache
+H:\Daily Learning\Design-Patterns\Bridge-pattern\Bridge-pattern\obj\Debug\net8.0\Bridge-pattern.AssemblyInfo.cs
+H:\Daily Learning\Design-Patterns\Bridge-pattern\Bridge-pattern\obj\Debug\net8.0\Bridge-pattern.csproj.CoreCompileInputs.cache
+H:\Daily Learning\Design-Patterns\Bridge-pattern\Bridge-pattern\obj\Debug\net8.0\Bridge-pattern.dll
+H:\Daily Learning\Design-Patterns\Bridge-pattern\Bridge-pattern\obj\Debug\net8.0\refint\Bridge-pattern.dll
+H:\Daily Learning\Design-Patterns\Bridge-pattern\Bridge-pattern\obj\Debug\net8.0\Bridge-pattern.pdb
+H:\Daily Learning\Design-Patterns\Bridge-pattern\Bridge-pattern\obj\Debug\net8.0\Bridge-pattern.genruntimeconfig.cache
+H:\Daily Learning\Design-Patterns\Bridge-pattern\Bridge-pattern\obj\Debug\net8.0\ref\Bridge-pattern.dll
