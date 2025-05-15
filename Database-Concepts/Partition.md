@@ -77,13 +77,11 @@ CREATE TABLE customers_profile (
 | Use Case       | Manageability, performance inside same DB | Scalability across regions or large datasets |
 | Analogy        | Filing cabinet with drawers           | Distributing cabinets in different offices   |
 
-#### ✅ Real-life Analogy:
+#### Real-life Analogy:
 - **Partitioning** is like dividing books in a **single large bookshelf by genre**.
 - **Sharding** is like having **multiple libraries in different cities**, each serving specific regions.
 
----
-
-## ✅ Pros and Cons of Partitioning
+## Pros and Cons of Partitioning
 
 ### Pros
 - **Faster queries**: When WHERE clause filters can target specific partitions only.
@@ -97,9 +95,7 @@ CREATE TABLE customers_profile (
 - **Schema changes**: Might need to propagate changes to all partitions (depends on DBMS).
 - **Not a magic bullet for all performance issues**.
 
----
-
-## 🔥 PostgreSQL Example — Benefits of Partitioning
+## PostgreSQL Example — Benefits of Partitioning
 
 #### Scenario: Querying orders from 2023
 ```sql
