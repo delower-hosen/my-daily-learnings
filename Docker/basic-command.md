@@ -58,7 +58,6 @@ This cheat sheet includes essential Docker commands with simple descriptions.
 | `docker compose up` | Start services defined in `docker-compose.yml` |
 | `docker compose down` | Stop and remove containers, networks created by Compose |
 
-
 ## Notes
 
 - Use `docker inspect <container_or_image>` to see detailed metadata.
@@ -68,16 +67,19 @@ This cheat sheet includes essential Docker commands with simple descriptions.
 ## Example
 
 ```bash
+# Create a Docker network so containers can communicate with each other
+docker network create pg-network
+
 # Run PostgreSQL with:
 # - container name (--name)
 # - environment variable for password (-e)
 # - exposed port (-p)
 # - detached mode (-d)
-docker run --name my-postgres -e POSTGRES_PASSWORD=secret -p 5432:5432 -d postgres
+docker run --name my-postgres --network pg-network -e POSTGRES_PASSWORD=secret -p 5432:5432 -d postgres
 
 # Run PGAdmin with:
 # - container name
 # - email and password env variables
 # - exposed port
 # - detached mode
-docker run --name my-pgadmin -e PGADMIN_DEFAULT_EMAIL=user@domain.com -e PGADMIN_DEFAULT_PASSWORD=secret -p 8080:80 -d dpage/pgadmin4
+docker run --name my-pgadmin --network pg-network -e PGADMIN_DEFAULT_EMAIL=user@domain.com -e PGADMIN_DEFAULT_PASSWORD=secret -p 8080:80 -d dpage/pgadmin4
