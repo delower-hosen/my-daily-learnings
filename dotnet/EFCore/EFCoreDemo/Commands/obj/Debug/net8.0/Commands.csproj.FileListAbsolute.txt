@@ -1,0 +1,12 @@
+H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Commands\bin\Debug\net8.0\Commands.deps.json
+H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Commands\bin\Debug\net8.0\Commands.dll
+H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Commands\bin\Debug\net8.0\Commands.pdb
+H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Commands\obj\Debug\net8.0\Commands.GeneratedMSBuildEditorConfig.editorconfig
+H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Commands\obj\Debug\net8.0\Commands.AssemblyInfoInputs.cache
+H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Commands\obj\Debug\net8.0\Commands.AssemblyInfo.cs
+H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Commands\obj\Debug\net8.0\Commands.csproj.CoreCompileInputs.cache
+H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Commands\obj\Debug\net8.0\Commands.sourcelink.json
+H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Commands\obj\Debug\net8.0\Commands.dll
+H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Commands\obj\Debug\net8.0\refint\Commands.dll
+H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Commands\obj\Debug\net8.0\Commands.pdb
+H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Commands\obj\Debug\net8.0\ref\Commands.dll

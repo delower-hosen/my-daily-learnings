@@ -1,0 +1,12 @@
+H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Queries\bin\Debug\net8.0\Queries.deps.json
+H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Queries\bin\Debug\net8.0\Queries.dll
+H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Queries\bin\Debug\net8.0\Queries.pdb
+H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Queries\obj\Debug\net8.0\Queries.GeneratedMSBuildEditorConfig.editorconfig
+H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Queries\obj\Debug\net8.0\Queries.AssemblyInfoInputs.cache
+H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Queries\obj\Debug\net8.0\Queries.AssemblyInfo.cs
+H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Queries\obj\Debug\net8.0\Queries.csproj.CoreCompileInputs.cache
+H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Queries\obj\Debug\net8.0\Queries.sourcelink.json
+H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Queries\obj\Debug\net8.0\Queries.dll
+H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Queries\obj\Debug\net8.0\refint\Queries.dll
+H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Queries\obj\Debug\net8.0\Queries.pdb
+H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Queries\obj\Debug\net8.0\ref\Queries.dll
