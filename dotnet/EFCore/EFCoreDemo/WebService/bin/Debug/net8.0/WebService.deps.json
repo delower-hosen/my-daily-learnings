@@ -757,7 +757,8 @@
       },
       "Services/1.0.0": {
         "dependencies": {
-          "Domain": "1.0.0"
+          "Domain": "1.0.0",
+          "Persistence": "1.0.0"
         },
         "runtime": {
           "Services.dll": {

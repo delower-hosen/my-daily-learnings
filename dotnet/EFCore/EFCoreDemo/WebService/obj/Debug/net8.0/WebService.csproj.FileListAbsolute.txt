@@ -192,3 +192,4 @@ H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\WebService\obj\Debug\net8.0\refin
 H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\WebService\obj\Debug\net8.0\WebService.pdb
 H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\WebService\obj\Debug\net8.0\WebService.genruntimeconfig.cache
 H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\WebService\obj\Debug\net8.0\ref\WebService.dll
+H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\WebService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

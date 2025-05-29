@@ -1,1 +1,68 @@
+## Build output
+bin/
+obj/
+out/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider
+.idea/
+
+## Visual Studio Code
+.vscode/
+
+## Visual Studio working folder
 .vs/
+
+## ASP.NET Core secrets
+**/secrets.json
+
+## DotNet CLI artifacts
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## NPM
+node_modules/
+
+## Logs
+*.log
+
+## Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+## OS generated files
+.DS_Store
+Thumbs.db
+
+## Tests and coverage
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+## Others
+_ReSharper*/
+*.ncrunch*
+*.orig
+
+## Package managers
+packages/
+*.nupkg
+*.snupkg
+
+## Docker
+**/.dockerignore
+**/Dockerfile
+docker-compose*
+
+## Environment files
+.env
+.env.*

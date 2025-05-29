@@ -8,7 +8,7 @@ namespace ServiceCollector
     {
         public static void AddProductCommandServices(this IServiceCollection serviceCollection)
         {
-            serviceCollection.AddSingleton<ICreateProductCommandService, CreateProductCommandService>();
+            serviceCollection.AddScoped<ICreateProductCommandService, CreateProductCommandService>();
         }
     }
 }

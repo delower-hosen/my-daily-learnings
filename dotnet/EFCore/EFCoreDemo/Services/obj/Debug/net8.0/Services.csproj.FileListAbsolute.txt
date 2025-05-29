@@ -14,3 +14,5 @@ H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Services\obj\Debug\net8.0\Service
 H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Services\obj\Debug\net8.0\refint\Services.dll
 H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Services\obj\Debug\net8.0\Services.pdb
 H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Services\obj\Debug\net8.0\ref\Services.dll
+H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Services\bin\Debug\net8.0\Persistence.dll
+H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Services\bin\Debug\net8.0\Persistence.pdb

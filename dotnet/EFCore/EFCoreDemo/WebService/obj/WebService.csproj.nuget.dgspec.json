@@ -274,6 +274,9 @@
             "projectReferences": {
               "H:\\my-daily-learnings\\dotnet\\EFCore\\EFCoreDemo\\Domain\\Domain.csproj": {
                 "projectPath": "H:\\my-daily-learnings\\dotnet\\EFCore\\EFCoreDemo\\Domain\\Domain.csproj"
+              },
+              "H:\\my-daily-learnings\\dotnet\\EFCore\\EFCoreDemo\\Persistence\\Persistence.csproj": {
+                "projectPath": "H:\\my-daily-learnings\\dotnet\\EFCore\\EFCoreDemo\\Persistence\\Persistence.csproj"
               }
             }
           }
