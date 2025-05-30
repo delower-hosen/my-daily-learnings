@@ -2899,9 +2899,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\my-daily-learnings\\dotnet\\EFCore\\EFCoreDemo\\Persistence\\Persistence.csproj",
+      "projectUniqueName": "H:\\my-daily-learnings\\dotnet\\EFCore\\EFCoreDemo\\Persistence\\EfCore.PostgreSql.csproj",
       "projectName": "Persistence",
-      "projectPath": "H:\\my-daily-learnings\\dotnet\\EFCore\\EFCoreDemo\\Persistence\\Persistence.csproj",
+      "projectPath": "H:\\my-daily-learnings\\dotnet\\EFCore\\EFCoreDemo\\Persistence\\EfCore.PostgreSql.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
       "outputPath": "H:\\my-daily-learnings\\dotnet\\EFCore\\EFCoreDemo\\Persistence\\obj\\",
       "projectStyle": "PackageReference",
