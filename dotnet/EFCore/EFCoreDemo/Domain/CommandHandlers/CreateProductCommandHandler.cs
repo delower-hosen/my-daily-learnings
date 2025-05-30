@@ -4,14 +4,10 @@ using MediatR;
 
 namespace Domain.CommandHandlers
 {
-    public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand, bool>
+    public class CreateProductCommandHandler(ICreateProductCommandService createProductCommandService) : IRequestHandler<CreateProductCommand, bool>
     {
-        private readonly ICreateProductCommandService _createProductCommandService;
+        private readonly ICreateProductCommandService _createProductCommandService = createProductCommandService;
 
-        public CreateProductCommandHandler(ICreateProductCommandService createProductCommandService)
-        {
-            _createProductCommandService = createProductCommandService;
-        }
         public async Task<bool> Handle(CreateProductCommand command, CancellationToken cancellationToken)
         {
             await _createProductCommandService.CreateProductAsync(command);
