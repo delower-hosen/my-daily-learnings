@@ -1,4 +1,4 @@
-﻿namespace Domain.Entities
+﻿namespace Persistence.DomainModels.Entities
 {
     public class Product
     {

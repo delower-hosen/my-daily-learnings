@@ -1,6 +1,6 @@
 ﻿using Domain.Commands;
 using Domain.Contracts;
-using Domain.Entities;
+using Persistence.DomainModels.Entities;
 using Persistence.Repositories;
 
 namespace Services.CommandServices
