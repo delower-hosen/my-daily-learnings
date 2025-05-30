@@ -5,16 +5,26 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageId>EfCore.PostgreSql</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.2</Version>
     <Authors>Delower Hosen</Authors>
     <Description>EF Core Persistence library with DbContext, repositories, and migrations</Description>
     <PackageTags>EFCore PostgreSQL DbContext Repositories</PackageTags>
+
+    <!-- Add license expression -->
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+    <!-- Specify README file -->
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.5" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
+
+    <!-- Include license and readme in package -->
+    <None Include="LICENSE.txt" Pack="true" PackagePath="" />
+    <None Include="README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>

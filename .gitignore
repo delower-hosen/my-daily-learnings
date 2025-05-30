@@ -1,7 +1,9 @@
 ## Build output
-bin/
-obj/
+**/bin/
+**/obj/
 out/
+
+**/PackAndPush.bat
 
 ## User-specific files
 *.user
