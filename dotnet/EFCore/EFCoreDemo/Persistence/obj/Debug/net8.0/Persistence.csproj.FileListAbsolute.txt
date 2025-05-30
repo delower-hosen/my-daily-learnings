@@ -2,15 +2,12 @@ H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Persistence\bin\Debug\net8.0\Pers
 H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Persistence\bin\Debug\net8.0\Persistence.runtimeconfig.json
 H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Persistence\bin\Debug\net8.0\Persistence.dll
 H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Persistence\bin\Debug\net8.0\Persistence.pdb
-H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Persistence\bin\Debug\net8.0\Domain.dll
-H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Persistence\bin\Debug\net8.0\Domain.pdb
 H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Persistence\obj\Debug\net8.0\Persistence.csproj.AssemblyReference.cache
 H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Persistence\obj\Debug\net8.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
 H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfoInputs.cache
 H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfo.cs
 H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Persistence\obj\Debug\net8.0\Persistence.csproj.CoreCompileInputs.cache
 H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Persistence\obj\Debug\net8.0\Persistence.sourcelink.json
-H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Persistence\obj\Debug\net8.0\Persiste.61C28332.Up2Date
 H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Persistence\obj\Debug\net8.0\Persistence.dll
 H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Persistence\obj\Debug\net8.0\refint\Persistence.dll
 H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\Persistence\obj\Debug\net8.0\Persistence.pdb
