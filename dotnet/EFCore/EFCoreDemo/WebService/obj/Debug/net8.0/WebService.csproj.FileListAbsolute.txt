@@ -165,7 +165,6 @@ H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\WebService\bin\Debug\net8.0\Persi
 H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\WebService\bin\Debug\net8.0\ServiceCollector.dll
 H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\WebService\bin\Debug\net8.0\Services.dll
 H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\WebService\bin\Debug\net8.0\Domain.pdb
-H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\WebService\bin\Debug\net8.0\Persistence.pdb
 H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\WebService\bin\Debug\net8.0\ServiceCollector.pdb
 H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\WebService\bin\Debug\net8.0\Services.pdb
 H:\my-daily-learnings\dotnet\EFCore\EFCoreDemo\WebService\obj\Debug\net8.0\WebService.csproj.AssemblyReference.cache

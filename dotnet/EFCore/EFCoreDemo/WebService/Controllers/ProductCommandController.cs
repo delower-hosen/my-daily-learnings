@@ -22,7 +22,7 @@ namespace WebService.Controllers
         public async Task<IActionResult> Post([FromBody] CreateProductCommand command)
         {
             await _mediator.Send(command);
-            return Ok("Created task successfully!");
+            return Ok("Created product successfully!");
         }
     }
 }

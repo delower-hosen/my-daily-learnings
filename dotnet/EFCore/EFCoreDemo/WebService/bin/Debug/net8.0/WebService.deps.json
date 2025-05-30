@@ -10,7 +10,6 @@
         "dependencies": {
           "Domain": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.5",
-          "Persistence": "1.0.0",
           "ServiceCollector": "1.0.0",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
@@ -559,6 +558,19 @@
           }
         }
       },
+      "Persistence/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.5",
+          "Microsoft.EntityFrameworkCore.Design": "9.0.5",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4"
+        },
+        "runtime": {
+          "lib/net8.0/Persistence.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/6.6.2": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
@@ -723,20 +735,6 @@
         },
         "runtime": {
           "Domain.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Persistence/1.0.0": {
-        "dependencies": {
-          "Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "9.0.5",
-          "Microsoft.EntityFrameworkCore.Design": "9.0.5",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4"
-        },
-        "runtime": {
-          "Persistence.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -999,6 +997,13 @@
       "path": "npgsql.entityframeworkcore.postgresql/9.0.4",
       "hashPath": "npgsql.entityframeworkcore.postgresql.9.0.4.nupkg.sha512"
     },
+    "Persistence/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KbGKdUSSKklCLZq2pbfIFyHsF5REDy2dE6wOED59JAlwwVajfnLkFZn0Mxrv7JI2L/CyOtiTtuPeAS0AMA/T3Q==",
+      "path": "persistence/1.0.0",
+      "hashPath": "persistence.1.0.0.nupkg.sha512"
+    },
     "Swashbuckle.AspNetCore/6.6.2": {
       "type": "package",
       "serviceable": true,
@@ -1133,11 +1138,6 @@
       "hashPath": "system.threading.channels.7.0.0.nupkg.sha512"
     },
     "Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Persistence/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

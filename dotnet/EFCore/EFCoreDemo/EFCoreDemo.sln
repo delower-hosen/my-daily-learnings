@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebService", "WebService\WebService.csproj", "{B88324EE-75C8-4325-B322-4021204E27A5}"
 EndProject
@@ -10,8 +10,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{BCE49092-0A52-4958-9069-20A83170C365}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceCollector", "ServiceCollector\ServiceCollector.csproj", "{1EFEAE23-E788-470A-ADA6-736837C59BD4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{7425A079-C484-4E66-B79A-0B6833B292CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +33,6 @@ Global
 		{1EFEAE23-E788-470A-ADA6-736837C59BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EFEAE23-E788-470A-ADA6-736837C59BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EFEAE23-E788-470A-ADA6-736837C59BD4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7425A079-C484-4E66-B79A-0B6833B292CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7425A079-C484-4E66-B79A-0B6833B292CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7425A079-C484-4E66-B79A-0B6833B292CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7425A079-C484-4E66-B79A-0B6833B292CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
