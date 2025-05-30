@@ -2900,7 +2900,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "H:\\my-daily-learnings\\dotnet\\EFCore\\EFCoreDemo\\Persistence\\Persistence.csproj",
-      "projectName": "MyCompany.Persistence",
+      "projectName": "Persistence",
       "projectPath": "H:\\my-daily-learnings\\dotnet\\EFCore\\EFCoreDemo\\Persistence\\Persistence.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
       "outputPath": "H:\\my-daily-learnings\\dotnet\\EFCore\\EFCoreDemo\\Persistence\\obj\\",

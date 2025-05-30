@@ -4,7 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <PackageId>MyCompany.Persistence</PackageId>
+    <PackageId>Persistence</PackageId>
     <Version>1.0.0</Version>
     <Authors>Delower Hosen</Authors>
     <Description>EF Core Persistence library with DbContext, repositories, and migrations</Description>
