@@ -3,8 +3,6 @@
 **/obj/
 out/
 
-**/PackAndPush.bat
-
 ## User-specific files
 *.user
 *.suo
