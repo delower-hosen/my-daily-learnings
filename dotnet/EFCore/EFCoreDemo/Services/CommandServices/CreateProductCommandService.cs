@@ -1,7 +1,7 @@
 ﻿using Domain.Commands;
 using Domain.Contracts;
-using Persistence.DomainModels.Entities;
-using Persistence.Repositories;
+using EfCore.PostgreSql.DomainModels.Entities;
+using EfCore.PostgreSql.Repositories;
 
 namespace Services.CommandServices
 {
@@ -14,6 +14,7 @@ namespace Services.CommandServices
             var product = new Product
             {
                 Name = command.Name,
+                Description = command.Description,
                 Price = command.Price,
                 Quantity = command.Quantity
             };

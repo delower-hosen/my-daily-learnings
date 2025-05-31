@@ -1,7 +1,7 @@
 using Domain.CommandHandlers;
+using EfCore.PostgreSql;
+using EfCore.PostgreSql.Repositories;
 using Microsoft.EntityFrameworkCore;
-using Persistence;
-using Persistence.Repositories;
 using ServiceCollector;
 
 var builder = WebApplication.CreateBuilder(args);
