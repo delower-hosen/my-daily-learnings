@@ -1,7 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using EfCore.PostgreSql;
+using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
-namespace Persistence.Repositories
+namespace EfCore.PostgreSql.Repositories
 {
     public class Repository<T>(AppDbContext context) : IRepository<T> where T : class
     {

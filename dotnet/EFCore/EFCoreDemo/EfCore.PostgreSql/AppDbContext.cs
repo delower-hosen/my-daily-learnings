@@ -1,7 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Persistence.DomainModels.Entities;
+﻿using EfCore.PostgreSql.DomainModels.Entities;
+using Microsoft.EntityFrameworkCore;
 
-namespace Persistence
+namespace EfCore.PostgreSql
 {
     public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)
     {

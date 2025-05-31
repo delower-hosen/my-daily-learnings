@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 
-namespace Persistence.Repositories
+namespace EfCore.PostgreSql.Repositories
 {
     public interface IRepository<T> where T : class
     {

@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageId>EfCore.PostgreSql</PackageId>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <Authors>Delower Hosen</Authors>
     <Description>EF Core Persistence library with DbContext, repositories, and migrations</Description>
     <PackageTags>EFCore PostgreSQL DbContext Repositories</PackageTags>
