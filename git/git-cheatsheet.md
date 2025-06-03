@@ -48,6 +48,7 @@ git push origin --delete <name>   # Delete remote branch
 
 ```bash
 git stash                          # Save changes
+git stash -u                       # Save changes (untracked too)
 git stash pop                      # Apply and remove latest stash
 git stash apply                    # Apply without removing
 git stash list                     # List all stashes
@@ -63,6 +64,25 @@ git diff                           # Unstaged vs working
 git diff --cached                  # Staged vs last commit
 git show <commit>                  # Show commit details
 git blame <file>                   # Show line-by-line author
+```
+
+## Viewing Changes with
+
+```bash
+git diff                                # Show unstaged changes (working directory vs index)
+git diff <file>                         # Show unstaged changes in a specific file
+git diff --cached                       # Show staged changes (index vs last commit)
+git diff HEAD                           # Show all changes (working directory vs last commit)
+git diff HEAD <file>                    # Show all changes for a specific file
+
+git diff --stat                         # Show summary of changes (file list, insertions/deletions)
+git diff --color-words                  # Highlight changes word-by-word (instead of line-by-line)
+git diff --name-only                    # Show only the names of changed files
+git diff --name-status                  # Show file names and status (Added/Modified/Deleted)
+
+# Show changes between any two commits or branches
+git diff <commit1> <commit2>
+git diff <branch1>..<branch2>
 ```
 
 ## Undo & Reset
