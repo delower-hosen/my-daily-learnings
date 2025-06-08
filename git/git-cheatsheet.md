@@ -43,7 +43,7 @@ git checkout <name>                # Switch to branch
 git checkout -b <name>             # Create and switch
 git merge <branch>                 # Merge a branch
 git branch -d <name>               # Delete local branch
-git push origin --delete <name>   # Delete remote branch
+git push origin --delete <name>    # Delete remote branch
 ```
 
 ## Stashing
