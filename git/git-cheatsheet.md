@@ -35,7 +35,9 @@ git pull                           # Pull latest changes
 ## Branching
 
 ```bash
-git branch                         # List branches
+git branch                         # See local branches only
+git branch -a                      # See all branch (local + remote)
+git branch -r                      # See remote branches
 git branch <name>                  # Create a new branch
 git checkout <name>                # Switch to branch
 git checkout -b <name>             # Create and switch
