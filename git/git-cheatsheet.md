@@ -189,7 +189,33 @@ bfg --delete-folders .idea
 bfg --replace-text passwords.txt
 ```
 
----
+## Multiple GitHub Accounts (SSH Setup)
+
+```bash
+# Step-01: Generate SSH keys for each account 
+ssh-keygen -t ed25519 -C "personal@example.com" -f ~/.ssh/id_ed25519_personal
+ssh-keygen -t ed25519 -C "work@example.com" -f ~/.ssh/id_ed25519_work
+
+# Step-02: Map different SSH keys to different github accounts in ~/.ssh/config
+Host github-personal
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_ed25519_personal
+
+Host github-work
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_ed25519_work
+
+# Step-03: Add public keys to GitHub (copy these)
+cat ~/.ssh/id_ed25519_personal.pub
+cat ~/.ssh/id_ed25519_work.pub
+
+# Step - 04 Clone using aliases
+git clone git@github-personal:username/repo.git
+git clone git@github-work:username/repo.git
+
+```
 
 ## Tips & Best Practices
 
