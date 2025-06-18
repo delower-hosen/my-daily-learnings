@@ -60,12 +60,15 @@ git stash drop stash@{n}          # Drop a specific stash
 ## Inspection
 
 ```bash
-git log                            # Commit history
-git log --oneline --graph --all    # Visual branch structure
-git diff                           # Unstaged vs working
-git diff --cached                  # Staged vs last commit
-git show <commit>                  # Show commit details
-git blame <file>                   # Show line-by-line author
+git log                                 # Commit history
+git log --oneline --graph --all         # Visual branch structure
+git diff                                # Unstaged vs working
+git diff --cached                       # Staged vs last commit
+git show <commit-hash>                  # Show commit details
+git show --name-only <commit-hash>      # show only file names
+git show --name-status <commit-hash>    # show only file names with status (added/modified/deleted)
+git show --stat <commit-hash>           # show summery of changes (line added/removed per file)
+git blame <file>                        # Show line-by-line author
 ```
 
 ## Viewing Changes with
