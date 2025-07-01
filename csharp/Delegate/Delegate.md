@@ -39,6 +39,27 @@ Func<int, int, int> add = (a, b) => a + b;
 Console.WriteLine(add(2, 3)); // 5
 ```
 
+## LINQ and Delegates
+LINQ heavily relies on delegates, particularly the built-in ones like `Func<>`, `Action<>`, and `Predicate<>`. Most LINQ methods (like `Where`, `Select`, `Any`, `All`) accept lambda expressions that are compiled into delegate instances.
+
+### Example
+```csharp
+List<int> numbers = new() { 1, 2, 3, 4, 5 };
+var evens = numbers.Where(n => n % 2 == 0);
+
+# Under the hood:
+IEnumerable<int> evens = Enumerable.Where(numbers, n => n % 2 == 0);
+```
+Here, `n => n % 2 == 0` is compiled into a `Func<int, bool>` delegate, because `Where` expects `IEnumerable<T>.Where(Func<T, bool> predicate)`.
+
+We can also write this explicitly:
+```csharp
+Func<int, bool> isEven = n => n % 2 == 0;
+var evens = numbers.Where(isEven);
+```
+
+Thus, **delegates enable functional-style operations in LINQ**.
+
 ## Multicast Delegates
 A delegate can point to multiple methods. When invoked, it calls all methods in order.
 
