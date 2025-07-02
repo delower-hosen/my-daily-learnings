@@ -217,9 +217,17 @@ cat ~/.ssh/id_ed25519_work.pub
 # Step - 04 Clone using aliases
 git clone git@github-personal:username/repo.git
 git clone git@github-work:username/repo.git
-
 ```
 
+## Multiple GitHub Accounts (HTTPS Setup)
+```bash
+git config --global credential.helper manager-core  # Use Git Credential Manager
+git config --global credential.useHttpPath true     # Enable per-path credential caching
+
+# Per-repo identity settings
+git config user.name "your user name for that repo"
+git config user.email "your user email for that repo"
+```
 ## Tips & Best Practices
 
 - Use `git status` and `git log` often.
