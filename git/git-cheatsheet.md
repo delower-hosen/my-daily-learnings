@@ -42,6 +42,8 @@ git branch <name>                  # Create a new branch
 git checkout <name>                # Switch to branch
 git checkout -b <name>             # Create and switch
 git merge <branch>                 # Merge a branch
+git merge --no-commit --no-ff <branch>  # Simulate merge without committing
+git merge --abort                  # Abort merge (if conflicted)
 git branch -d <name>               # Delete local branch
 git push origin --delete <name>    # Delete remote branch
 ```
@@ -87,7 +89,16 @@ git diff --name-status                  # Show file names and status (Added/Modi
 
 # Show changes between any two commits or branches
 git diff <commit1> <commit2>
-git diff <branch1>..<branch2>
+git diff <branch1>..<branch2>           # Compare tips of two branches (similar to git log)
+git diff <branch1>...<branch2>          # Show changes on branch2 not in branch1 (symmetric difference)
+
+# Preview merge (changes that would result from merging branchA into branchB)
+git diff $(git merge-base branchA branchB) branchB   # Show what changed on branchB since common ancestor
+git diff $(git merge-base branchA branchB) branchA   # Show what changed on branchA
+git diff $(git merge-base branchA branchB)..branchB  # Alternative syntax
+
+# Dry-run merge simulation with conflict preview (without actually merging)
+git merge-tree $(git merge-base branchA branchB) branchA branchB
 ```
 
 ## Undo & Reset
