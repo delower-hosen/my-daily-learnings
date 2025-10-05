@@ -118,3 +118,22 @@ Hello from nodeapp1
 
 ## Result
 Nginx successfully load balances requests across 3 Node.js containers running in the same Docker network.
+
+# Kubernetes
+
+# (if you used the create-configmap command earlier skip the ConfigMap manifest)
+kubectl apply -f nodeapp-deployment.yaml
+kubectl apply -f nodeapp-service.yaml
+
+# create configmap (option A) or apply manifest (option B)
+kubectl create configmap nginx-config --from-file=nginx.conf
+# OR
+kubectl apply -f nginx-configmap.yaml
+
+kubectl apply -f nginx-deployment.yaml
+kubectl apply -f nginx-service.yaml
+
+kubectl get deployments
+kubectl get pods
+kubectl get svc
+
