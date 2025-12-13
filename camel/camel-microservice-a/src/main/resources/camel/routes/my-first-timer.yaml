@@ -1,0 +1,14 @@
+- route:
+    id: first-timer-route
+    from:
+      uri: "timer:first-timer"
+      parameters:
+        period: 2000
+      steps:
+        - bean:
+            ref: currentTime
+            method: invoke
+        - bean:
+            ref: timeEnhancer
+            method: invoke
+        - to: "log:first-timer"

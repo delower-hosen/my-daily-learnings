@@ -66,3 +66,35 @@ docker-compose*
 ## Environment files
 .env
 .env.*
+
+# Maven / Java
+target/
+*.log
+*.class
+
+# Spring Boot
+spring.log
+*.jar
+*.war
+*.ear
+
+# IDEs
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.settings/
+*.classpath
+*.project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Camel / runtime
+camel-context.xml
+*.bak
+
