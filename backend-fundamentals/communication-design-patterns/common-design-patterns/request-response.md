@@ -28,7 +28,7 @@ The most common and simple communication pattern:
 | POST JSON Body → |                                |                 |
 |                  | Parse HTTP + headers           |                 |
 |                  | Deserialize JSON → C# object   |                 |
-|                  | Call `GetCenterRealizations()` |                 |
+|                  | Call the controller method     |                 |
 |                  |                                | Your logic runs |
 |                  | ← Serialize response JSON      |                 |
 |                  | ← Send HTTP response           |                 |
