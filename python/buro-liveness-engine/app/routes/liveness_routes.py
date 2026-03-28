@@ -35,11 +35,34 @@ async def analyze_liveness(
     video: UploadFile = File(...),
 ):
     try:
-        parsed_sequence = json.loads(expected_sequence)
-        if not isinstance(parsed_sequence, list):
-            raise ValueError("expected_sequence must be a JSON array")
+        raw_sequence = (expected_sequence or "").strip()
+        print("RAW expected_sequence:", repr(raw_sequence))
 
-        saved_video_path = video_intake_service.save_upload(video.file, video.filename or "upload.mp4")
+        if raw_sequence == "":
+            parsed_sequence = []
+        else:
+            try:
+                parsed_sequence = json.loads(raw_sequence)
+            except json.JSONDecodeError:
+                parsed_sequence = [
+                    item.strip().lower()
+                    for item in raw_sequence.split(",")
+                    if item.strip()
+                ]
+
+        if not isinstance(parsed_sequence, list):
+            raise ValueError("expected_sequence must be a JSON array or comma-separated string")
+
+        parsed_sequence = [
+            str(item).strip().lower()
+            for item in parsed_sequence
+            if str(item).strip()
+        ]
+
+        saved_video_path = video_intake_service.save_upload(
+            video.file,
+            video.filename or "upload.mp4"
+        )
 
         result = liveness_engine_service.analyze_video(
             video_path=str(saved_video_path),
@@ -48,33 +71,8 @@ async def analyze_liveness(
             member_id=member_id,
         )
         return result
-    except json.JSONDecodeError as ex:
-        raise HTTPException(status_code=400, detail=f"Invalid JSON in expected_sequence: {str(ex)}")
+
     except ValueError as ex:
         raise HTTPException(status_code=400, detail=str(ex))
     except Exception as ex:
         raise HTTPException(status_code=500, detail=f"Unhandled server error: {str(ex)}")
-
-
-@router.get("/debug/sample-response")
-def sample_response() -> dict:
-    return {
-        "success": True,
-        "session_id": "LV-001",
-        "member_id": "M-1001",
-        "is_live": True,
-        "confidence": 0.82,
-        "decision": "pass",
-        "expected_sequence": ["left", "right", "straight"],
-        "detected_sequence": ["left", "right", "straight"],
-        "frame_count": 24,
-        "face_detected_frames": 21,
-        "reasons": [],
-        "metadata": {
-            "fps": 30.0,
-            "frame_count": 120,
-            "width": 1280,
-            "height": 720,
-            "duration_seconds": 4.0
-        }
-    }

@@ -24,8 +24,9 @@ class FaceDetectionService:
             return None
 
         x, y, w, h = max(faces, key=lambda item: item[2] * item[3])
+
         return {
-            "bbox": [int(x), int(y), int(x + w), int(y + h)],
+            "bbox": [int(x), int(y), int(w), int(h)],
             "confidence": 1.0,
             "area": int(w * h)
         }
@@ -41,6 +42,9 @@ class FaceDetectionService:
             results.append({
                 "frame_index": frame_index,
                 "face_found": detection is not None,
+                "bbox": detection["bbox"] if detection else None,
+                "confidence": detection["confidence"] if detection else 0.0,
+                "area": detection["area"] if detection else 0,
                 "detection": detection
             })
 
