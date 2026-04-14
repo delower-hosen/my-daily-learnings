@@ -17,7 +17,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="Buro Liveness Engine",
+    title="Liveness Engine",
     version=settings.app_version,
     lifespan=lifespan,
 )
