@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(cp app/services/frame_extraction_service.py app/engine/frame_extractor.py)",
+      "Bash(cp app/services/face_detection_service.py app/engine/face_detector.py)",
+      "Bash(cp app/services/head_pose_service.py app/engine/head_pose.py)",
+      "Bash(cp app/services/anti_spoof_service.py app/engine/anti_spoof.py)",
+      "Bash(cp app/services/challenge_validation_service.py app/engine/challenge_validator.py)",
+      "Bash(touch:*)",
+      "Bash(.venv/Scripts/python -c ':*)",
+      "Bash(.venv/Scripts/pip install:*)",
+      "Bash(.venv/Scripts/python -m uvicorn app.main:app --port 8001 --log-level warning)",
+      "Bash(curl -s http://localhost:8001/api/v1/health)",
+      "Bash(python -m json.tool)",
+      "Bash(curl -s -X POST http://localhost:8001/api/v1/sessions -H 'Content-Type: application/json' -d '{\"reference_id\": \"test-user-001\"}')",
+      "Bash(curl -sv \"http://localhost:8001/api/v1/sessions/02919379-e5a9-4c63-977b-c1bf401021d9/result\")",
+      "Bash(netstat -ano)",
+      "Bash(taskkill /F /PID 7420)",
+      "Bash(curl:*)",
+      "Bash(.venv/Scripts/pip list:*)",
+      "Bash(.venv\\\\Scripts\\\\pip install:*)",
+      "Bash(ping -n 1 db.yhkqggonplgllfvokqlk.supabase.co)",
+      "Bash(ping -n 1 google.com)"
+    ]
+  }
+}

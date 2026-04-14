@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+*.egg-info/
+
+# App runtime
+uploads/
+liveness.db
+liveness.db-shm
+liveness.db-wal
+.env
+
+# Logs
+*.log
+
+# Editor
+.vscode/settings.json
+.idea/
