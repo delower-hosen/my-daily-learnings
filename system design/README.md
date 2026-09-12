@@ -140,7 +140,15 @@ An architect collects **problems** — and knows which tool answers each one.
 
 Each chapter here is a **map** — enough to recognise a concept, know what problem it solves, and judge when to use it.
 
-When you need **mechanism-level** depth on a topic — the actual algorithms, traced failure scenarios, working implementations, and production debugging — see the [**Deep Dives**](deep-dives/README.md) series. The distributed-systems chapter is 7,400 words; deep dives 01–03 cover the same territory in 35,500.
+When you need **mechanism-level** depth on a topic — the actual algorithms, traced failure scenarios, working implementations, and production debugging — see the [**Deep Dives**](deep-dives/README.md) series: **16 deep dives, ~158,000 words**, which is more than this whole map. The distributed-systems chapter here is 7,400 words; deep dives 01–03 cover the same territory in 35,500.
+
+| Part | Deep dives |
+|------|-----------|
+| **I — Distributed systems** | [01 Raft](deep-dives/01-consensus-and-raft.md) · [02 Time & causality](deep-dives/02-time-clocks-and-causality.md) · [03 Consistency models](deep-dives/03-consistency-models-formally.md) |
+| **II — Data storage** | [04 MVCC & storage](deep-dives/04-postgresql-mvcc-and-storage.md) · [05 B-trees & indexes](deep-dives/05-btrees-indexes-and-access-methods.md) · [06 Query planner](deep-dives/06-query-planner-and-executor.md) · [07 WAL & recovery](deep-dives/07-wal-checkpoints-and-recovery.md) · [08 Locking & SSI](deep-dives/08-transactions-locking-and-ssi.md) · [09 LSM trees](deep-dives/09-lsm-trees-and-write-optimised-storage.md) |
+| **III — Platform** | [10 Kafka](deep-dives/10-kafka-internals.md) · [11 Redis](deep-dives/11-redis-internals.md) |
+| **IV — Network stack** | [12 TCP](deep-dives/12-tcp-mechanics.md) · [13 TLS](deep-dives/13-tls-and-applied-cryptography.md) · [14 HTTP/1.1, /2, /3](deep-dives/14-http-on-the-wire.md) · [15 Containers & the kernel](deep-dives/15-containers-and-the-kernel.md) |
+| **V — Inside the process** | [16 Concurrency, memory models & GC](deep-dives/16-concurrency-memory-models-and-gc.md) |
 
 ---
 

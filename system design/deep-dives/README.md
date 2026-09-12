@@ -28,11 +28,11 @@ Every deep dive contains:
 | **Production debugging** | The commands, the metrics, the symptoms, the fixes |
 | **The edge cases** | The things that bite after 18 months |
 
-**Scale of the difference:** the whole distributed-systems chapter in the map is 7,400 words. Deep dives 01–03 cover the same territory in 35,500.
+**Scale of the difference:** the whole distributed-systems chapter in the map is 7,400 words. Deep dives 01–03 cover the same territory in 35,500. The map is 25 chapters and ~145,000 words; this series is 16 deep dives and ~158,000.
 
 ---
 
-## Published — 11 deep dives, ~117,000 words
+## The series is complete — 16 deep dives, ~158,000 words
 
 ### Part I — Distributed systems internals
 
@@ -60,17 +60,20 @@ Every deep dive contains:
 | **10** | [Kafka Internals](10-kafka-internals.md) | 9.4k | The partition directory · record batches · **zero-copy and the two settings that disable it** · LEO/HW/ISR traced · **how `acks=1` loses data** · unclean leader election traced · **leader epochs and the divergence bug** · idempotent producer · **transactions and the LSO stall** · all four rebalance protocols · KRaft |
 | **11** | [Redis Internals](11-redis-internals.md) | 9.4k | What "single-threaded" means in Redis 7 · **encodings and their one-way thresholds** · expiration sampling · approximated LRU and LFU · **the fork latency problem and THP** · COW amplification · **a traced cluster failover losing writes** · the blocking commands · latency diagnosis procedure |
 
----
+### Part IV — The network stack
 
-## Planned
+| # | Deep dive | Words | Highlights |
+|---|-----------|-------|-----------|
+| **12** | [TCP Mechanics](12-tcp-mechanics.md) | 8.6k | The state machine and what each state costs you · **SYN queue vs accept queue** · SYN cookies · TIME_WAIT vs CLOSE_WAIT, and which one is your bug · **ephemeral port exhaustion at 470 conn/s** · bandwidth-delay product · slow start traced · fast retransmit vs RTO · **CUBIC vs BBR** · bufferbloat · **the Nagle + delayed-ACK 40 ms stall** · PMTU black holes · reading `ss -i` |
+| **13** | [TLS and Applied Cryptography](13-tls-and-applied-cryptography.md) | 8.4k | TLS 1.2 and 1.3 handshakes message by message · **where forward secrecy actually comes from** · AEAD and the HKDF key schedule · X.509 and SAN · chain validation · **the missing-intermediate bug that works in a browser and fails in curl** · SNI, ALPN, ECH · **session tickets as the forward-secrecy trap** · 0-RTT replay · OCSP soft-fail · CT logs · mTLS and SPIFFE · post-quantum X25519MLKEM768 |
+| **14** | [HTTP/1.1, /2 and /3 on the wire](14-http-on-the-wire.md) | 8.1k | Why pipelining failed · HTTP/2 binary framing · **HPACK's static and dynamic tables, and HPACK's own head-of-line blocking** · the 65535-byte flow-control window that throttles your uploads · GOAWAY · **Rapid Reset (CVE-2023-44487) traced** · QUIC's packets/frames/streams separation · QPACK · connection migration · **request smuggling: CL.TE, TE.CL and the H2 downgrade** |
+| **15** | [Containers and the Kernel](15-containers-and-the-kernel.md) | 8.4k | All eight namespaces · **the PID 1 signal-discard and zombie problem** · cgroup v2 · **CFS quota throttling traced to 104 ms p99 at "80% CPU"** · `cpu.weight` vs `cpu.max`, the requests-vs-limits argument · `memory.high` vs `memory.max` · page cache accounting and the right alert metric · **exit code 137** · JVM/Go/Node container awareness · overlayfs copy-up · capabilities, seccomp, user namespaces · **the escape surface with real CVEs** · gVisor/Kata/Firecracker |
 
-| # | Deep dive | Will cover |
-|---|-----------|-----------|
-| 12 | TCP Mechanics | Congestion control algorithms, bandwidth-delay product, buffer bloat, TIME_WAIT, socket tuning, what `ss` output means |
-| 13 | TLS and Applied Cryptography | Handshake message by message, cipher suite mechanics, certificate validation, session resumption, 0-RTT replay |
-| 14 | HTTP/1.1, /2 and /3 on the wire | Framing, HPACK/QPACK, flow control, QUIC streams and loss recovery, connection migration |
-| 15 | Containers and the Kernel | Namespaces and cgroups v2 in detail, CFS quota throttling, overlayfs, seccomp, the container escape surface |
-| 16 | Concurrency, Memory Models and GC | Memory ordering, false sharing, lock-free structures, GC algorithms and tuning, allocation profiling |
+### Part V — Inside the process
+
+| # | Deep dive | Words | Highlights |
+|---|-----------|-------|-----------|
+| **16** | [Concurrency, Memory Models and GC](16-concurrency-memory-models-and-gc.md) | 8.3k | **Why sharing a variable between cores costs ~100×** · MESI · **false sharing and the 13× padding fix** · **x86-TSO vs ARM, and why your data races surface on Graviton** · happens-before · **the double-checked locking bug** · futex and the 50–500× contention cliff · lock convoys · CAS and ABA · **the Universal Scalability Law: why more threads can be slower** · **virtual-thread pinning** · tri-colour marking and write barriers · G1/ZGC/Shenandoah/Go · **the safepoint problem: why a "3 ms" pause stopped you for 800 ms** |
 
 ---
 
@@ -83,6 +86,10 @@ Every deep dive contains:
 **If you operate Kafka or Redis:** read 10 or 11 directly; each is self-contained given its map chapter.
 
 **If you are choosing a storage engine:** 05 (B-trees) then 09 (LSM), then the decision section at the end of 09.
+
+**If you own the edge:** 12 → 13 → 14, in order. Connection handling, then what encrypts it, then what rides on top.
+
+**If you debug tail latency:** 12 (TCP) → 15 (containers) → 16 (concurrency and GC). Latency outliers almost always come from one of these three layers, and the three interact — the CPU throttling in 15 makes the safepoint problem in 16 worse, and both are invisible in the obvious metrics.
 
 ---
 
