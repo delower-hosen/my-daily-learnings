@@ -136,4 +136,12 @@ An architect collects **problems** — and knows which tool answers each one.
 
 ---
 
-*Written for Delower Hosen. Start with [Chapter 00](00-architect-mindset.md).*
+## Going deeper
+
+Each chapter here is a **map** — enough to recognise a concept, know what problem it solves, and judge when to use it.
+
+When you need **mechanism-level** depth on a topic — the actual algorithms, traced failure scenarios, working implementations, and production debugging — see the [**Deep Dives**](deep-dives/README.md) series. The distributed-systems chapter is 7,400 words; deep dives 01–03 cover the same territory in 35,500.
+
+---
+
+*Written for Delower Hosen. Start with [Chapter 00](00-architect-mindset.md), or jump to a [Deep Dive](deep-dives/README.md).*
